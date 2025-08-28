@@ -1,5 +1,4 @@
 package com.example.Course.Registration.Site.controller;
-
 import com.example.Course.Registration.Site.model.Course;
 import com.example.Course.Registration.Site.model.CourseRegistry;
 import com.example.Course.Registration.Site.service.CourseService;
