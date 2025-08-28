@@ -15,19 +15,16 @@ public class CourseController {
     @Autowired
     CourseService courseService;
 
-    
     @GetMapping("/courses")
     public List<Course> availableCourses() {
         return courseService.availableCourses();
     }
 
-    
     @GetMapping("/courses/enrolled")
     public List<CourseRegistry> enrolledStudents() {
         return courseService.enrolledStudents();
     }
 
-    
     @PostMapping("/courses/register")
     public String enrollCourse(@RequestParam("name") String name,
                                @RequestParam("emailId") String emailId,
