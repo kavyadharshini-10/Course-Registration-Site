@@ -14,7 +14,7 @@ public class CourseRegistry {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
     private int id;
-    //No need to provide value
+    
 
     @Column(name = "name")
 
