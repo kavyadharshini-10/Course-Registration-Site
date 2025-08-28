@@ -8,5 +8,6 @@ A Spring Boot web application for managing course registrations. Users can view,
 - Search courses by name or trainer
 - Simple and clean web interface
 - Backend powered by Spring Boot.
-## Project Structure
+
+
 
